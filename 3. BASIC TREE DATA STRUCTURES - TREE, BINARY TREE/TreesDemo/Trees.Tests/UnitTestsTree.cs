@@ -24,7 +24,7 @@ public class UnitTestsTree
                     new Tree<int>(6)));
         // Act
         var nodes = new List<int>();
-        tree.Each(nodes.Add);
+       
 
         // Assert
         var expectedNodes = new int[] { 7, 19, 1, 12, 31, 21, 14, 23, 6 };
