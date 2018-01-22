@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trees.Tests", "Trees.Tests\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreesHw", "TreesHw\TreesHw.csproj", "{5861AA23-79BC-4717-843C-B5BC0FEC17AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreesHW2", "TreesHW2\TreesHW2.csproj", "{FBC0CA5D-584E-4D57-8273-4C7C3D061DC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5861AA23-79BC-4717-843C-B5BC0FEC17AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5861AA23-79BC-4717-843C-B5BC0FEC17AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5861AA23-79BC-4717-843C-B5BC0FEC17AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC0CA5D-584E-4D57-8273-4C7C3D061DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC0CA5D-584E-4D57-8273-4C7C3D061DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC0CA5D-584E-4D57-8273-4C7C3D061DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC0CA5D-584E-4D57-8273-4C7C3D061DC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
