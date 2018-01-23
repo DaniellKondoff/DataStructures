@@ -17,7 +17,12 @@ public class Launcher
         bst.Insert(39);
         bst.Insert(45);
 
-        bst.DeleteMin();
-        bst.EachInOrder(x => Console.WriteLine((x)));
+
+        //bst.EachInOrder(Console.WriteLine);
+        //bst.DeleteMax();
+        //bst.EachInOrder(Console.WriteLine);
+
+        Console.WriteLine(bst.Rank(8));
+
     }
 }
