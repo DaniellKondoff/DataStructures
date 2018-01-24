@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-public class BinarySearchTree<T> : IBanarySearchTree<T> where T:IComparable
+public class BinarySearchTree<T> : IBanarySearchTree<T> where T : IComparable
 {
     private class Node
     {
@@ -296,12 +296,57 @@ public class BinarySearchTree<T> : IBanarySearchTree<T> where T:IComparable
 
     public T Ceiling(T element)
     {
-        throw new NotImplementedException();
+        return Ceiling(this.root, element);
+    }
+
+    private T Ceiling(Node node, T element)
+    {
+        if (node == null)
+        {
+            return default(T);
+        }
+
+        if (node.Value.CompareTo(element) <= 0) //Right
+        {
+            return Ceiling(node.Right, element);
+        }
+
+        T ceil = Ceiling(node.Left, element); // Left
+
+        if (EqualityComparer<T>.Default.Equals(ceil, default(T)))
+        {
+            return node.Value;
+        }
+
+        return ceil;
     }
 
     public T Floor(T element)
     {
-        throw new NotImplementedException();
+        return Floor(this.root, element);
+    }
+
+    private T Floor(Node node, T element)
+    {
+        if (node == null)
+        {
+            return default(T);
+        }
+
+       
+        if (node.Value.CompareTo(element) >= 0) //LEFT
+        {
+            return this.Floor(node.Left, element);
+        }
+
+        T floor = this.Floor(node.Right, element);//RIGHT
+
+        if (EqualityComparer<T>.Default.Equals(floor, default(T)))
+        {
+            return node.Value;
+        }
+
+        return floor;
     }
 }
 
