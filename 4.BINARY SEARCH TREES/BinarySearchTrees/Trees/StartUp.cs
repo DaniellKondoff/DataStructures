@@ -22,10 +22,11 @@ public class Launcher
         //bst.DeleteMax();
         //bst.EachInOrder(Console.WriteLine);
 
-        //Console.WriteLine(bst.Rank(8));
+        Console.WriteLine(bst.Rank(8));
+        Console.WriteLine(bst.Select(8));
 
-        var floor = bst.Floor(5);
-        Console.WriteLine(floor);
+        //var floor = bst.Floor(5);
+        //Console.WriteLine(floor);
 
         //int ceiling = bst.Ceiling(4);
         //Console.WriteLine(ceiling);

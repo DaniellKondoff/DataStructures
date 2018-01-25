@@ -289,11 +289,6 @@ public class BinarySearchTree<T> : IBanarySearchTree<T> where T : IComparable
         return node.ChildrenCount;
     }
 
-    public T Select(int rank)
-    {
-        throw new NotImplementedException();
-    }
-
     public T Ceiling(T element)
     {
         return Ceiling(this.root, element);
@@ -347,6 +342,11 @@ public class BinarySearchTree<T> : IBanarySearchTree<T> where T : IComparable
         }
 
         return floor;
+    }
+
+    public T Select(int rank)
+    {
+        throw new NotImplementedException();
     }
 }
 
