@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2005
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVLTree", "..\AVLTreeHW\AVLTree\AVLTree.csproj", "{A4938484-9FB8-4546-9F02-26959D942515}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVLTree", "AVLTree\AVLTree.csproj", "{A4938484-9FB8-4546-9F02-26959D942515}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVLTree.Tests", "..\AVLTreeHW\AVLTree.Tests\AVLTree.Tests.csproj", "{2A4C8E90-3446-46B8-B68F-21EB6175AD02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVLTree.Tests", "AVLTree.Tests\AVLTree.Tests.csproj", "{2A4C8E90-3446-46B8-B68F-21EB6175AD02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,8 +24,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E8D04E86-4B3D-4C24-BA66-C5F302750B66}
 	EndGlobalSection
 EndGlobal
