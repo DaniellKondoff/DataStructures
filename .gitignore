@@ -259,3 +259,4 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/7. AA-TREES AND AVL TREES/First-Last-List/First-Last-List/packages.config
